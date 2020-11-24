@@ -1,10 +1,8 @@
-import React from 'react';
-import './style.css';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
 
 function Header() {
-  const location = useLocation();
-
   return (
     <header>
       <nav className="navbar navbar-fade navbar-expand-lg navbar-dark bg-dark">
@@ -18,22 +16,22 @@ function Header() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
           <li className="nav-item">
-            <a className="nav-link" href="index.html"><i className="fa fa-user-o" aria-hidden="true"></i>  About Me</a>
+            <Link to="/about" className="nav-link"><i className="fa fa-user-o" aria-hidden="true"></i>  About Me</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio.html"><i className="fa fa-folder-open-o" aria-hidden="true"></i> Portfolio</a>
+            <Link to="/portfolio" className="nav-link"><i className="fa fa-folder-open-o" aria-hidden="true"></i> Portfolio</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="%PUBLIC_URL%/resume/ODonoghue_Resume.pdf" download><i className="fa fa-file-text-o" aria-hidden="true"></i> My Résumé</a>
+            <a className="nav-link" href="/resume/ODonoghue_Resume.pdf" download><i className="fa fa-file-text-o" aria-hidden="true"></i> My Résumé</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"><i className="fa fa-envelope-open-o" aria-hidden="true"></i> Contact</a>
+            <Link to="/contact" className="nav-link"><i className="fa fa-envelope-open-o" aria-hidden="true"></i> Contact</Link>
           </li>
         </ul>
         </div>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Header;
