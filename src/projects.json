@@ -1,5 +1,11 @@
 [
   {
+    "img": "/img/dbugme.png",
+    "url": "https://github.com/jesseodonoghue/project-3",
+    "title": "DBUGME",
+    "description": "DBUGME is a public platform curated for up and coming developers. It allows users to learn and/or mentor in various languages and skill sets. DBUGME also allows the user to connect with a mentor to help work through problems. Use DBUGME to share you knowledge and collaborate with other developers while learning new tips and tricks."
+  },
+  {
     "img": "/img/react-employee-directory.png",
     "url": "https://github.com/jesseodonoghue/react-employee-directory",
     "title": "React Employee Directory",

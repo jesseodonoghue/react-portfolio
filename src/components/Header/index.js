@@ -25,7 +25,7 @@ function Header() {
             <a className="nav-link" href="/resume/ODonoghue_Resume.pdf" download><i className="fa fa-file-text-o" aria-hidden="true"></i> My Résumé</a>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link"><i className="fa fa-envelope-open-o" aria-hidden="true"></i> Contact</Link>
+            <a href="mailto:jesseodonoghue@gmail.com" className="nav-link"><i className="fa fa-envelope-open-o" aria-hidden="true"></i> Email Me</a>
           </li>
         </ul>
         </div>

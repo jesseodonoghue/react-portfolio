@@ -26,11 +26,11 @@ function AboutCard() {
                   </div>
 
                   <div className="col-md-8 pr-5">
+                    <p>I have always been interested in learning to design and program web sites, and recently graduating from the University of North Carolina's Full Stack Boot Camp is a great first step toward a career as a web dev. I am looking forward to the challenges ahead on my journey to becoming a Junior Developer.</p>
+
                     <p>I have been interested in computers and programming all of my life. My uncle gave me my first computer at age 7: a Commodore 64. Before I knew it I was reading books and magazines learning how to program in BASIC. In college I majored in Computer Science with a focus on Networking. I graduated with an Associates Degree in Computer Science.</p>
 
                     <p>I was born and raised in the Finger Lakes region of New York state. I have lived in Massachusetts, Connecticut, Illinois, and Kentucky. I currently reside in New Bern, North Carolina with my lovely wife and two wonderful children.</p>
-
-                    <p>I have always been interested in learning to design and program web sites, and the University of North Carolina's Full Stack Boot Camp seemed like a perfect fit. I am looking forward to the challenges ahead on my journey to becoming a Junior Developer.</p>
                   </div>
                 </div>
               </div>
